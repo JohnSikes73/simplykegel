@@ -15,16 +15,19 @@ Both are required for App Store submission.
 4. Under **Build and deployment**, set:
    - **Source:** Deploy from a branch
    - **Branch:** `main` / `(root)`
-5. Click **Save**. Wait 30–60 seconds. GitHub will show a banner: **"Your site is live at `https://<your-username>.github.io/simplykegel/`"**.
+5. Click **Save**. Wait 30–60 seconds. GitHub will show a banner: **"Your site is live at `https://JohnSikes73.github.io/simplykegel/`"**.
 
 ## Your URLs for App Store Connect
 
-After deployment, your URLs will be:
+After deployment, paste these exact URLs into App Store Connect:
 
-- **Support URL:** `https://<your-username>.github.io/simplykegel/`
-- **Privacy Policy URL:** `https://<your-username>.github.io/simplykegel/privacy.html`
+| Field in App Store Connect | URL to paste |
+| --- | --- |
+| **Support URL** | `https://JohnSikes73.github.io/simplykegel/` |
+| **Privacy Policy URL** | `https://JohnSikes73.github.io/simplykegel/privacy.html` |
+| **Marketing URL** (optional) | `https://JohnSikes73.github.io/simplykegel/` |
 
-Both URLs must be publicly reachable (open them in an Incognito/Private window to verify before pasting into App Store Connect).
+Before pasting, open both URLs in a private/incognito browser window to confirm they load. If you get a 404 immediately after enabling Pages, wait another minute — GitHub Pages takes up to ~2 minutes on first deploy.
 
 ## Updating the site later
 
